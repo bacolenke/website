@@ -71,7 +71,7 @@ export function HomeHero() {
       const scrollTimeline = gsap.timeline({ paused: true });
       scrollTimeline
         .to('.hero-glass-inner', { scale: getScale(), duration: 0.8, ease: 'power3.out' })
-        .to('.hero-word', { text: 'Next Because', duration: 0.8, ease: 'none', fontSize: getTextSize() }, '<')
+        .to('.hero-word', { text: 'Just Because', duration: 0.8, ease: 'none', fontSize: getTextSize() }, '<')
         .to('.hero-scroll-more', { opacity: 0, duration: 0.4, ease: 'sine.out' }, 0.05)
         .to('.hero-second-layer', { opacity: 1, duration: 0.8, ease: 'power3.out' }, 1.3)
         .to('.hero-content', { opacity: 0, y: -80, duration: 0.8, ease: 'power3.out' }, 1.9);
