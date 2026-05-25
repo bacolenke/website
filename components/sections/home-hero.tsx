@@ -6,7 +6,6 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { TextPlugin } from 'gsap/TextPlugin';
 import { SiteHeader } from '@/components/layout/site-header';
 import { ScrollCue } from '@/components/ui/scroll-cue';
-import '@/lib/animations/home-hero.css';
 
 export function HomeHero() {
   const rootRef = useRef<HTMLDivElement | null>(null);
