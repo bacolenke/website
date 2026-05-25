@@ -29,10 +29,10 @@ export function HomeHero() {
 
     const getScale = () => {
       const width = window.innerWidth;
-      if (width <= 575) return 1.2;
-      if (width <= 768) return 1.3;
-      if (width <= 991) return 1.5;
-      return 2;
+      if (width <= 575) return 1.02;
+      if (width <= 768) return 1.05;
+      if (width <= 991) return 1.08;
+      return 1.12;
     };
 
     const getTextSize = () => {
